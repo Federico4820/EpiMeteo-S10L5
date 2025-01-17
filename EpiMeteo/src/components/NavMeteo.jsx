@@ -7,7 +7,7 @@ function NavMeteo() {
   return (
     <Navbar className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <img
             alt="Meteo logo"
             src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Weather_%28iOS%29.png"
