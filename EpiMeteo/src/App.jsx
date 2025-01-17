@@ -4,6 +4,8 @@ import "./App.css";
 import NavMeteo from "./components/NavMeteo";
 import NotFound from "./components/NotFound";
 import Home from "./components/Home";
+import FooterMeteo from "./components/FooterMeteo";
+import InfoMeteo from "./components/InfoMeteo";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/info/:Luogo" element={<InfoMeteo />} />
       </Routes>
+      <FooterMeteo />
     </BrowserRouter>
   );
 }
