@@ -36,11 +36,11 @@ function InfoMeteo() {
       <h1>Informazioni</h1>
 
       {meteo && (
-        <Container style={{ height: "80vh" }}>
+        <Container style={{ minHeight: "80vh" }}>
           <h4>
             {meteo.name}, {meteo.sys.country}
           </h4>
-          <Row className=" mb-5 mt-5">
+          <Row className="justify-content-center mb-5 mt-5">
             <Card
               className="me-3 mb-3"
               border="primary"
